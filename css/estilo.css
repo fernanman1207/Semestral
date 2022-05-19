@@ -6,6 +6,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  height: 650px;
 }
 .inicio{
   text-align: center;
@@ -41,10 +42,13 @@ body {
 .titulo1{
   text-align: center;
   color: rgb(0, 0, 0);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .titulo2{
   text-align: center;
   color: rgb(0, 0, 0); 
+  margin-bottom: 20px;
 }
 .imgproductos{
   display: block;
@@ -84,4 +88,21 @@ td, th {
   text-align: left;
   padding: 8px;
   text-align: center;
+}
+form{
+  background: #ffffff;
+  padding: 40px 0;
+  box-shadow: 0 0 6px 0 rgb(255, 255, 255,0.8);
+  border-radius: 10px;
+
+}
+.form1{
+  text-align: center;
+  width: 30%;
+  margin: auto;
+}
+input{
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  width: 100%;
 }
